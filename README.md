@@ -2,7 +2,7 @@
 
 **Student Name:** Shaifali Vashistha
 **Roll No.:** 2026204018
-**GitHub Repository Link:** 
+**GitHub Repository Link:** [https://github.com/shaifalivashistha/MERN_lab_assignment](https://github.com/shaifalivashistha/MERN_lab_assignment)
 
 ## Project Description
 A decoupled, end-to-end full-stack notes management application using the MERN stack. Features a React/Vite client and an Express/MongoDB backend.
