@@ -1,0 +1,21 @@
+const express = require("express");
+const cors = require("cors");
+const connectDB = require("./config/db");
+const noteRoutes = require("./routes/noteRoutes");
+
+const app = express();
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+
+// Connect DB
+connectDB();
+
+// Routes
+app.use("/api/notes", noteRoutes);
+
+const PORT = 8000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});

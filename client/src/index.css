@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f4f5;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #dc3545;
+  float: right;
+}
+
+.empty-state,
+.loading {
+  text-align: center;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.note-date {
+  font-size: 0.8rem;
+  color: #888;
+}
